@@ -1,0 +1,199 @@
+#msgs_scroller_div::-webkit-scrollbar-track, #client_body::before, .client_container, 
+#search_terms, #client_body, #footer, ts-message, .channel_header, ts-jumper ts-jumper-container,
+ts-jumper input[type="text"],
+.supports_custom_scrollbar:not(.slim_scrollbar) #col_channels:hover #channels_scroller::-webkit-scrollbar-track,
+.feature_sli_file_search #search_results.all, .feature_sli_file_search #search_results.messages,
+.feature_sli_file_search #search_results.files,
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider{
+  background: #333 !important;
+}
+
+.feature_sli_file_search #search_results.all .search_message_result, .feature_sli_file_search #search_results.messages .search_message_result,
+.flex_pane_showing #col_flex{
+  border-color: #333 !important;
+}
+
+#client_body::before {
+  border-bottom: 1px solid #1a2129 !important;
+}
+
+ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
+ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name,
+.feature_name_tagging_client .internal_member_link,
+.c-message__body,
+.c-message__body .internal_member_link:link,
+.comment .internal_member_link:link,
+.feature_name_tagging_client ts-message .internal_user_group_link,
+.ql-container.texty_single_line_input{ 
+  color: #eee !important;
+}
+
+.c-message__body .internal_member_link:link,
+.comment .internal_member_link:link,
+.feature_name_tagging_client .internal_member_link,
+.feature_name_tagging_client ts-message .internal_user_group_link{ 
+  background-color: #555 !important;
+}
+
+.light_theme ts-message .message_content a.message_sender, #msg_input::-webkit-input-placeholder,
+ts-jumper input[type="text"]::-webkit-input-placeholder {
+  color: #aaa !important;
+}
+
+#msg_input, #primary_file_button {
+  background: transparent !important;
+  color: #eee !important;
+  border-color: #444 !important;
+}
+
+.day_divider .day_divider_label {
+  color: #eee !important;
+}
+
+.day_container .day_msgs {
+  border-top: 1px solid #1a2129 !important;
+}
+
+ts-message:hover, .day_divider .day_divider_label,
+.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight){
+  background: #333 !important;
+}
+
+#messages_container::after {
+  background: none !important;
+}
+
+.bot_label { 
+  padding: 0 4px !important;
+  border-radius: 3px !important;
+  background: #0a233a !important;
+}
+
+
+.file_container:after{
+  background-image: -webkit-linear-gradient(top,rgba(255,255,255,0) 0,#333 100%) !important;
+}
+
+.rxn,
+#team_menu,
+#col_channels,
+#col_channels_footer,
+pre,
+ts-message .action_hover_container .btn_msg_action,
+#messages_container.has_top_messages_banner:before,
+.file_container,
+.file_container .CodeMirror .CodeMirror-code>div:before, .file_container .CodeMirror .sssh-line:before, .file_container .sssh-code .CodeMirror-code>div:before, .file_container .sssh-code .sssh-line:before,
+#col_flex,
+.search_message_result,
+#flex_contents .heading,
+#flex_contents .heading a,
+#flex_contents .subheading,
+.search_result_with_extract,
+#search_filters a,
+.menu,
+.menu #menu_items_scroller,
+.p-channel_sidebar{
+  background: #333 !important;
+}
+
+pre,
+ts-message .action_hover_container .btn_msg_action,
+.file_container .CodeMirror .CodeMirror-code>div pre, .file_container .CodeMirror .sssh-line pre, .file_container .sssh-code .CodeMirror-code>div pre, .file_container .sssh-code .sssh-line pre,
+.search_message_result .search_message_result_meta a,
+.search_message_result .search_message_result_meta .date_links a,
+.flexpane_redesign #flex_contents .heading_text,
+#flex_contents .subheading,
+#search_filters.files #filter_files, #search_filters.messages #filter_messages,
+.menu ul li a{
+  color: #eee !important;
+}
+
+#search_filters .tab{
+  background: #333 !important;
+}
+
+#quick_switcher_btn{
+  border-top-color: #333 !important;
+}
+
+.rxn,
+.search_result_with_extract,
+.flexbox_client.flexpane_redesign.flex_pane_showing #col_flex,
+.flexpane_redesign #flex_contents .heading,
+#flex_contents .subheading,
+.search_segmented_control,
+.menu{
+ border-color: #000 !important; 
+}
+.search_segmented_control.active{
+  color: #2ab27b !important;
+  background: #555 !important;
+}
+
+.search_result_with_extract {
+  box-shadow: 0 1px 10px #555 !important;
+}
+
+.comment .mention, .feature_name_tagging_client .comment .mention, .feature_name_tagging_client ts-message .mention, ts-message .mention,
+span.match {
+  background: #881 !important;
+  color: #fff !important;
+}
+
+pre.special_formatting{
+  background: #222 !important;
+}
+
+code{
+  color: #faa !important;
+  background-color: #000 !important;
+  border-color: #000 !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+}
+
+.supports_custom_scrollbar:not(.slim_scrollbar) #archive_msgs_scroller_div::-webkit-scrollbar-thumb, .supports_custom_scrollbar:not(.slim_scrollbar) #msgs_scroller_div::-webkit-scrollbar-thumb,
+.supports_custom_scrollbar:not(.slim_scrollbar) #col_channels:hover #channels_scroller::-webkit-scrollbar-thumb{
+  background: #000 !important;
+}
+.supports_custom_scrollbar:not(.slim_scrollbar) #archive_msgs_scroller_div::-webkit-scrollbar-thumb, .supports_custom_scrollbar:not(.slim_scrollbar) #archive_msgs_scroller_div::-webkit-scrollbar-track, .supports_custom_scrollbar:not(.slim_scrollbar) #msgs_scroller_div::-webkit-scrollbar-thumb, .supports_custom_scrollbar:not(.slim_scrollbar) #msgs_scroller_div::-webkit-scrollbar-track,
+.supports_custom_scrollbar:not(.slim_scrollbar) #col_channels:hover #channels_scroller::-webkit-scrollbar-thumb, .supports_custom_scrollbar:not(.slim_scrollbar) #col_channels:hover #channels_scroller::-webkit-scrollbar-track{
+  color: #000 !important;
+}
+
+a, a:link, a:visited{
+  color: #a0ccff !important;
+}
+ts-message a .mention{
+  color: #aff !important;
+}
+a:hover{
+  color: #00aef9 !important;
+}
+/*.channels_list_holder ul li.mention a, .channels_list_holder ul li.unread:not(.muted_channel) .channel_name, .channels_list_holder ul li.unread:not(.muted_channel) a.group_name, .channels_list_holder ul li.unread:not(.muted_channel) .im_name, .channels_list_holder ul li.unread:not(.muted_channel) .mpim_name, .channels_list_holder ul li.unread:not(.muted_channel)>a:link{
+  color: #fff !important;
+}*/
+.channels_list_holder ul li a.channel_name, .channels_list_holder ul li:not(.unread) .group_name, .channels_list_holder ul li .im_name, .channels_list_holder ul li .mpim_name, .channels_list_holder ul li>a:link,
+ts-message a.timestamp,
+.p-channel_sidebar__channel, .p-channel_sidebar__channel:link{
+  color: #aaa !important;
+}
+#channels_scroller.show_which_channel_is_active ul li.active .im_name,
+.channels_list_holder ul li.unread:not(.muted_channel) .primary_action,
+#channels_scroller.show_which_channel_is_active ul li.active .primary_action,
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link{
+  color: #fff !important;
+}
+
+#msgs_div .unread_divider.no_unreads .divider_label{
+ background: #000 !important;
+ color: #aaa !important;
+}
+
+#msgs_div .unread_divider.no_unreads hr{
+  border-top-color: #888 !important;
+}
+
+.feature_name_tagging_client #channel_topic_text{
+ background: #333 !important;
+}
