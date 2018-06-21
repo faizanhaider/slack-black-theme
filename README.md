@@ -22,8 +22,8 @@ At the very bottom, add
 ```js
 // First make sure the wrapper app is loaded
 document.addEventListener('DOMContentLoaded', function() {
-  const cssURI = 'https://gist.githubusercontent.com/gkostov/039fe18fac0c27a4350b274f83403dcb/raw/slack-dark-theme.css',
-    codeMirrorThemURI = 'https://gist.githubusercontent.com/pdsullivan/32bad68541ccb66ae6d4948f7c9e88bb/raw/f22e0f5de5ff25d2c06337e8a0ea1ce25885b0e4/cobalt.css';  // also add the "cobalt" theme for the CodeMirror snippets
+  const cssURI = 'https://raw.githubusercontent.com/faizanhaider/slack-black-theme/master/slack-dark-theme.css',
+    codeMirrorThemURI = 'https://raw.githubusercontent.com/faizanhaider/slack-black-theme/master/cobalt.css';  // also add the "cobalt" theme for the CodeMirror snippets
 
   Promise.all([cssURI, codeMirrorThemURI].map((file)=>{
     return fetch(file)
