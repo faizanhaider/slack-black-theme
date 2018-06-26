@@ -197,3 +197,23 @@ ts-message a.timestamp,
 .feature_name_tagging_client #channel_topic_text{
  background: #333 !important;
 }
+
+#convo_tab * {
+    color: white;
+}
+
+.thread_participants {
+    color: white !important;
+}
+
+#search_autocomplete_popover * {
+    color: black !important;
+}
+
+.channel_header * {
+    color: #fff !important;
+}
+
+.p-jumper__results * {
+    color: white !important;
+}
