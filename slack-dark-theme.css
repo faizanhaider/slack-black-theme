@@ -217,3 +217,11 @@ ts-message a.timestamp,
 .p-jumper__results * {
     color: white !important;
 }
+
+.c-member_slug {
+    background: none;
+}
+
+.c-member_slug--mention {
+    background: darkblue;
+}
