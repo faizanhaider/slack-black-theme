@@ -219,9 +219,9 @@ ts-message a.timestamp,
 }
 
 .c-member_slug {
-    background: none;
+    background: none !important;
 }
 
 .c-member_slug--mention {
-    background: darkblue;
+    background: darkblue !important;
 }
