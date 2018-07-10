@@ -3,7 +3,7 @@
 ts-jumper input[type="text"],
 .supports_custom_scrollbar:not(.slim_scrollbar) #col_channels:hover #channels_scroller::-webkit-scrollbar-track,
 .feature_sli_file_search #search_results.all, .feature_sli_file_search #search_results.messages,
-.feature_sli_file_search #search_results.files,
+.feature_sli_file_search #search_results.files, #channel_topic_text, 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider{
   background: #333 !important;
 }
@@ -19,11 +19,11 @@ ts-jumper input[type="text"],
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name,
-.feature_name_tagging_client .internal_member_link,
+.feature_name_tagging_client .internal_member_link, .p-message_pane__foreword__description,
 .c-message__body,
 .c-message__body .internal_member_link:link,
 .comment .internal_member_link:link,
-.feature_name_tagging_client ts-message .internal_user_group_link,
+.feature_name_tagging_client ts-message .internal_user_group_link, .c-channel_name,
 .ql-container.texty_single_line_input{ 
   color: #eee !important;
 }
