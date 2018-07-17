@@ -228,5 +228,5 @@ span.c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention,
 }
 
 .c-message_attachment__row {
-    color: wheat;
+    color: wheat !important;
 }
